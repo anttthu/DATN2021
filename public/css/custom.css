@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a,
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.nav-item:hover {
+    background: #ce7a58;
+}
+
+.nav-item:hover .nav-link {
+    color: white !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+.slogan {
+    padding: 40px 20px;
+    text-align: center;
+    background: rgba(242, 166, 52, 0.2);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 28px;
+    background-image: url(https://dichvucong.gov.vn/p/home/theme/img/gioithieu/hac.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 250px auto;
+}
+
+.slogan a {
+    color: #ce7a58;
+}
+
+footer {
+    background: #903938;
+    padding: 10px 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0;
+}
+
+th,
+td {
+    text-align: center;
+}
+
